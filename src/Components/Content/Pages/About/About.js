@@ -4,26 +4,26 @@ import Person from './Person';
 const person = [
     {
         name: "Marta",
-        linkedin: "",
-        github: "",
+        linkedinLink: "",
+        githubLink: "",
         description: ""
     },
     {
         name: "Monika",
-        linkedin: "",
-        github: "",
+        linkedinLink: "",
+        githubLink: "",
         description: ""
     },
     {
         name: "Krzysiek",
-        linkedin: "",
-        github: "",
+        linkedinLink: "",
+        githubLink: "",
         description: ""},
     {
         name: "Łukasz",
-        linkedin: "",
-        github: "",
-        description: ""}
+        linkedinLink: "https://www.linkedin.com/in/%C5%82ukasz-krakowiak-45a40983/",
+        githubLink: "https://github.com/lukaszkrakowiak",
+        description: "Jestem osobą lubiącą tworzyć i wymyślać rzeczy. <br /> aaaa"}
 ];
 
 function About(){
