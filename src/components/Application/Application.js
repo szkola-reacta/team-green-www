@@ -23,6 +23,7 @@ class Application extends React.Component{
     handleChangeColorClick = () => {
         this.setState({
             color: 'papayawhip',
+            
             fontColor: 'black'
         })
     }
