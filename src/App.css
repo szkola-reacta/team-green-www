@@ -18,6 +18,35 @@ p{
 }
 
 .person a{
-    font-size: 45px;
+    font-size: 35px;
+    color: #eb8e1c;
+}
+
+.person a:hover{
+    font-size: 35px;
+    color: #ab7e02;
+}
+
+.person{
+    padding: 10px 5px 10px 5px;
+    border-bottom: 1px #6f6e6e solid;
+}
+
+.person .name{
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    margin-right: 25px;;
+}
+
+.person .social p{
+    float: left;
+    margin-right: 9px;
+}
+
+.person .social::after{
+    display: block;
+    content: " ";
+    clear: both;
 }
 
