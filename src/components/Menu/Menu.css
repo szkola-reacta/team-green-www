@@ -1,0 +1,11 @@
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 100px;
+    padding-right: 50px;
+    font-size: 24px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
