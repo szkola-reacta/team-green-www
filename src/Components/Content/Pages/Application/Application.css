@@ -1,0 +1,13 @@
+#welcome{
+    line-height: 2;
+}
+
+#questions{
+    width: 50%;
+    margin-left: 25%;
+}
+
+ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
