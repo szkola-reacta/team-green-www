@@ -1,8 +1,8 @@
-import React from './node_modules/react';
+import React from 'react';
 
-import { FontAwesomeIcon } from './node_modules/@fortawesome/react-fontawesome'
-import { faGithubSquare, faLinkedinIn} from './node_modules/@fortawesome/free-brands-svg-icons'
-import ReactHtmlParser from './node_modules/react-html-parser';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithubSquare, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
+import ReactHtmlParser from 'react-html-parser';
 
 function Person(props){
     const {name, linkedinLink, githubLink, description} = props.person;
