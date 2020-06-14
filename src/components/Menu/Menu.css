@@ -1,11 +1,35 @@
-.menu a {
+a, .logo{
     color: #fff;
     text-decoration: none;
-    line-height: 100px;
-    padding-right: 50px;
-    font-size: 24px;
 }
 
-.menu a:hover {
-    text-decoration: underline;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh
+}
+
+.menu-links {
+    display: flex;
+    justify-content: space-around;
+    width: 22%;
+}
+
+.menu-links li{
+    position: relative;
+}
+.custom-underline-inline::after{
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.custom-underline-inline:hover::after{
+    width: 100%;
+    left: 2px;
 }

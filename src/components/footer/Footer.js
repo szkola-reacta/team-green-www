@@ -21,29 +21,34 @@ function Footer() {
             <div className="footer-content">
                 <div className="col">
                     <h4>COMPANY</h4>
-                    <a href="#">About Us</a>
-                    <a href="#">Our Team</a>
-                    <a href="#">Newsletter</a>
+                    <a href="#" className="custom-underline">About Us</a>
+                    <a href="#" className="custom-underline">Our Team</a>
+                    <a href="#" className="custom-underline">Newsletter</a>
                 </div>
                 <div className="col">
                     <h4>GET HELP</h4>
-                    <a href="#">FAQ</a>
-                    <a href="#">Contact Us</a>
+                    <a href="#" className="custom-underline">FAQ</a>
+                    <a href="#" className="custom-underline">Contact Us</a>
                 </div>
                 <div className="col">
                     <h4>EXPLORE</h4>
-                    <a href="#">Recipes</a>
-                    <a href="#">Food</a>
+                    <a href="#" className="custom-underline">Recipes</a>
+                    <a href="#" className="custom-underline">Food</a>
                 </div>
                 <div className="col">
-                    <h4>FOLLOW US</h4>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <h4 className="space">FOLLOW US</h4>
+                    <div className="icons-container">
+                        <li className="custom-color-facebook"><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                        <li className="custom-color-twitter"><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+                        <li className="custom-color-instagram"><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+                    </div>
                 </div>
             </div>
             <div className="footer-bottom">
-                <strong>&copy;{new Date().getFullYear()} RecipeTeam</strong> | <a href="#">All rights reserved</a> | <a href="#">Terms of Use</a> | <a href="#">Privacy</a>
+                <strong>&copy;{new Date().getFullYear()} RecipeTeam</strong> |
+                <a href="#" className="custom-underline-inline"> All rights reserved</a> |
+                <a href="#" className="custom-underline-inline"> Terms of Use</a> |
+                <a href="#" className="custom-underline-inline"> Privacy </a>
             </div>
             <div className="underline"></div>
         </div>

@@ -1,3 +1,7 @@
+form p {
+    color: #fff;
+}
+
 .footer-content a, li {
     color: white;
     text-decoration: none;
@@ -13,15 +17,18 @@
 }
 
 .footer-bottom a {
-    color: rgb(218, 218, 218);
+    color: #fff;
     text-decoration: none;
     list-style: none;
-    
 }
 
 .footer {
-    background: #303036;
-    color: #d3d3d3;
+    background-image: url("./ingredients3.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
     height: 490px;
     line-height: 1.7;
     position: relative;
@@ -48,6 +55,23 @@
     width: 100%;
     transition: width .3s;
 }
+.footer-bottom a{
+    position: relative;
+}
+.custom-underline-inline::after{
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+.custom-underline-inline:hover::after{
+    width: 100%;
+    left: 2px;
+}
 
 /* .footer-top-content {
     display: flex;
@@ -61,8 +85,8 @@
 }
 
 .footer .footer-bottom {
-    background: #303036;
-    color: #d3d3d3;
+    
+    color: #fff;
     height: 50px;
     width: 100%;
     text-align: left;
@@ -86,7 +110,7 @@
 
 .button-sign-up {
     box-sizing: border-box;
-    height: 40px;
+    height: 45px;
     width: 90px;
     font-weight: 700;
 }
@@ -108,17 +132,46 @@ button:active {
 
 input {
     border: none;
+    margin-top: 2px
 }
 .email-sign-up {
     box-sizing: border-box;
-    width: 200px;
-    height: 40px;
-    padding: 0 5px;
+    width: 270px;
+    height: 45px;
+    padding: 0 10px;
 }
 ::placeholder {
     color: rgb(155, 155, 155)
 }
 
+.space{
+    display: flex;
+    justify-content: center;
+}
+
+.custom-color-twitter {
+    margin: 0 5px 0 5px;
+}
+.custom-color-twitter:hover{
+    background-color: #df7d42;
+    border-radius: 50%;
+}
+
+.custom-color-facebook:hover{
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #59b1d2;
+}
+
+.custom-color-instagram:hover{
+    border-radius: 50%;
+    background-color: #b569c5;
+}
+img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
 
 @media(max-width: 1045px){
     .footer .footer-content{

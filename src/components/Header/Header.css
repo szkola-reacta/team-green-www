@@ -1,13 +1,13 @@
 .header {
-    height: 100px;
-    background-color:  #0a0;
-    font-family: 'Courier New', Courier, monospace;
+    /* height: 100px; */
+    background-color:  #303036;
+    /* font-family: 'Courier New', Courier, monospace; */
 }
 
-.header-logo {
+/* .header-logo {
     float: left;
-}
+} */
 
-.header-menu {
+/* .header-menu {
     float: right;
-}
+} */

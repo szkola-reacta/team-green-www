@@ -1,14 +1,19 @@
-import React from './node_modules/react';
+import React from 'react';
 
 import './Menu.css';
 
 function Menu() {
     return(
-        <div class='menu'>
-            <a href="#">Strona główna</a>
-            <a href="#">O aplikacji</a>
-            <a href="#">Zespół</a>
-        </div>
+        <nav>
+            <div className='logo'>
+                <h4>LOGO GREEN TEAM SUPER SUPER</h4>
+            </div>
+                <ul className="menu-links">
+                    <li className="custom-underline-inline"><a href="#">Home</a></li>
+                    <li className="custom-underline-inline"><a href="#">About App</a></li>
+                    <li className="custom-underline-inline"><a href="#">Team</a></li>
+                </ul>
+        </nav>
     );
 }
 

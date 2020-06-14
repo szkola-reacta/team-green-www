@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Footer from './Components/footer/Footer';
-import Header from './Components/Header';
-import Application from './Components/Content/Pages/Application';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Application from './components/Content/Pages/Application';
+import Content from './components/Content/Content';
 import './App.css';
-import Content from './Components/Content/Content';
 
 function App() {
   return (
